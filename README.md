@@ -1,4 +1,4 @@
-# EVENT HUB — Lahore University Events
+# CAMPUSPHERE — Lahore University Events
 
 A single platform that shows university events across Lahore (LUMS, UET, FAST, PU, UMT, COMSATS, GCU).
 Students can filter by university and event type, and search by event name — built with Python, Streamlit, pandas, and numpy.

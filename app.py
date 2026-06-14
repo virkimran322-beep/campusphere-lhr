@@ -1,7 +1,7 @@
 import streamlit as st
 from event_manager import EventManager
 
-st.set_page_config(page_title="EVENT HUB", page_icon="🎓", layout="wide")
+st.set_page_config(page_title="CAMPUSPHERE", page_icon="🎓", layout="wide")
 
 STYLE = """
 <style>
@@ -23,7 +23,7 @@ st.markdown(STYLE, unsafe_allow_html=True)
 
 manager = EventManager("data/events.csv")
 
-st.title("🎓 EVENT HUB")
+st.title("🎓 CAMPUSPHERE")
 st.caption("University events across Lahore — seminars, workshops, competitions and festivals, all in one place.")
 
 with st.sidebar:
